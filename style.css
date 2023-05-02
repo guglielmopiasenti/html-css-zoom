@@ -4,3 +4,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+header {
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    
+}
+.buttons {
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    padding-right: 10px;
+}
+.view {
+    padding: 10px;
+    background-color: #4A4A4A;
+    border-radius: 5px 5px;
+}
