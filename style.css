@@ -64,7 +64,7 @@ header {
     border-radius: 5px 5px;
 }
 main {
-    padding-top: 100px;
+    padding-top: 150px;
     height: 100vh;
 }
 footer {
@@ -85,10 +85,8 @@ footer {
     text-align: center;
 }
 .end-meeting {
-    background-color: #4A4A4A;
-    padding: 10px;
     color: red;
-    
+    background-color: #4A4A4A;
 }
 .btn {
     font-size: 1.5rem;
@@ -98,5 +96,5 @@ footer {
     color: green;
 }
 .fa-angle-up {
-    
+    align-self: center;
 }
