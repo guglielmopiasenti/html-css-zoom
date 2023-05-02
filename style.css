@@ -4,15 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Utils */
 body {
     font-family: sans-serif;
     background-color: black;
-}
-header {
-    position: fixed;
-    width: 100vw;
-    height: 50px;
-    
 }
 .buttons {
     height: 100%;
@@ -23,8 +19,50 @@ header {
     gap: 10px;
     padding-right: 10px;
 }
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap:10px; */
+}
+.col {
+    padding: 5px;
+    flex-basis: calc(100% / 7);
+}
+.card {
+    position: relative;
+    width: 100%;
+}
+.card-img {
+    width: 100%;
+    display: block;
+}
+.card-text {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+
+
+
+/* Main */
+header {
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    
+}
 .view {
     padding: 10px;
     background-color: #4A4A4A;
     border-radius: 5px 5px;
+}
+main {
+    padding-top: 100px;
 }
